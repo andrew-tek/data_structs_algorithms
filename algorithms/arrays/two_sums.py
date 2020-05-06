@@ -4,7 +4,7 @@
 # The output should be [0, 1]. 
 # Because nums[0] + nums[1] = 2 + 7 = 9.
 
-def twoNumberSum(array, targetSum):
+def two_number_sum(array, targetSum):
     array.sort()
     currentStart = 0
     currentEnd = len(array) - 1
